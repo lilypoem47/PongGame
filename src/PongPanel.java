@@ -8,7 +8,8 @@
    import java.awt.Graphics;
    import java.awt.Graphics2D;
    import java.awt.Stroke;
-   import java.awt.BasicStroke;  	    	   	import java.awt.Graphics2D;
+   import java.awt.BasicStroke;  	    	   	
+   
    
   public class PongPanel extends JPanel implements ActionListener, KeyListener {
 
@@ -68,14 +69,14 @@
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		update();
+		repaint();
 	 }
 	
 
 	 @Override
 	 public void paintComponent(Graphics g) {
 	     super.paintComponent(g);
-	     g.setColor(Color.WHITE);
-	     g.fillRect(20, 20, 100, 100);
+	     paintDottedLine(g);	     
 	    
 	 }
  }
