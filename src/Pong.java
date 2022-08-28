@@ -1,6 +1,4 @@
-import javax.swing.JFrame;
-
- 
+import javax.swing.JFrame; 
 
 public class Pong extends JFrame {
 	private final static String WINDOW_TITLE = "Pong";
@@ -23,7 +21,9 @@ public class Pong extends JFrame {
 			public void run() {
 				new Pong();
 			}
-		}); 
-
+		});
 	}
 }
+	
+
+
