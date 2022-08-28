@@ -16,11 +16,7 @@
 
      private Color colour;
 
-     private int initialXPosition, initialYPosition;
-
-     
-
-     
+     private int initialXPosition, initialYPosition; 
 
  	public int getxPosition() {
 
